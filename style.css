@@ -1,0 +1,236 @@
+/* share style */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;400;600;700&display=swap');
+
+
+:root{
+    --primary-color: #FF42A5;
+    --fontp-color:  #3C354F;
+    --primary-font-size: 18px;
+    --primar-font-width:500;
+    --granent-colo:#FF42A5;
+}
+*{
+    font-family: 'Work Sans', sans-serif;
+
+}
+.btn_primary{
+   padding :21px 40px;
+   gap:10px;
+   border-radius: 48px;
+   margin-right:24px;
+   background-color: var(--primary-color);
+   border: none;
+   font-size: 20px;
+   font-weight: 600;
+   color: #FFF;
+}
+
+/* body{
+    max-width: 1426.6px;
+    margin: 0 auto;
+} */
+
+/* header */
+
+
+header{
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+ .nav{
+    display: flex;
+    justify-content:space-between;
+    margin: 0 12.5rem;
+ } 
+.nav-left{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    margin-right:1.2rem ;
+}
+.nav-left-text{
+   font-size: 45px;
+   font-weight: 700px;
+}
+ .head_ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .header-btn{
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    margin: 0;
+    padding: 10px;
+ }
+ .header-btn li {
+    list-style: none;
+ }
+ .header-btn li> a{
+    text-decoration: none;
+    font-size: var(--primary-font-size);
+    font-weight: var(--primar-font-width);
+    padding: 18px 24px;
+ }
+ .head_ul >ul{
+    display: flex;
+    align-items: center;
+ }
+.head_ul >li{
+    list-style: none;
+    margin-right:2rem ;
+}
+.head_ul >li > a{
+    text-decoration: none;
+}
+/* main banner secitn */
+.banner{
+    display:flex;
+    justify-content: space-around;
+    
+}
+.bannert-title{
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.bannert-tilet-logo{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 6rem;
+    font-weight: 800;
+    color: var(--granent-colo);
+    
+}
+.banner-left-center{
+    padding-top: 9.25rem;
+}
+
+.banner-left-discription{
+    display: flex;
+    flex-direction: column;
+}
+.banner-left-center >p{
+    font-weight: 500;
+    font-size:20px ;
+    color: var(--fontp-color );
+}
+.btn_banner{
+    background: #4EC5F7;
+}
+
+.gamer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+.gamer-left{
+    margin-left: 7.5rem;
+}
+
+.gamer-right{
+   text-align: right;
+   margin-right: 15rem;
+ 
+}
+.gamer_title{
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--granent-colo);
+    margin-bottom: 0;
+}
+.gamer-discription,.ellips{
+    font-size: var(--primary-font-size);
+    font-weight: var(--primar-font-width);
+}
+.gamer-title-end{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.btn-gamer{
+    margin: 0;
+}
+.online{
+   display: flex;
+   flex-direction: column;
+   margin-top: 10rem;
+   margin-left: 13rem;
+   margin-right: 13rem;
+   text-align: center;
+}
+.online-content{
+    margin-left: 3rem;
+    margin-bottom:1rem ;
+}
+.onlin-title{
+  font-size: 3rem;
+  color: #0B0223;
+  margin-bottom: 1rem;
+}
+.online_discriptionf{
+    font-size: var(--primary-font-size);
+    font-weight: var(--primar-font-width);
+    color: var(--fontp-color);
+    
+}
+.online-card{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.onlie-card-1{
+    position: relative;
+}
+.card-1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #0B0223;
+    opacity: 0;
+    border-radius: 1rem;
+    border: 2px solid red;
+    box-shadow: 0px 2px 10px red;
+}
+.card-1-sub{
+    display:flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 35%  30%;
+    background-color: none;
+     color: red;
+     cursor: pointer;
+}
+.card-1-sub img{
+    margin-bottom: 10%;
+}
+
+
+/* hover online gemes */
+.onlie-card-1:hover .card-1{
+     opacity: 0.8;
+}
+.play{
+    display: flex;
+    justify-content: space-between;
+    margin:0 12rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* responsibe */
